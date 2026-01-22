@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+</head>
+<body style="margin:0;height:100vh;display:flex;justify-content:center;align-items:center;
+background:#0f172a;color:white;font-family:Arial">
+
+<div style="background:#020617;padding:20px;border-radius:10px;width:300px;text-align:center">
+<h3>ALL DATA AKUN FREE BY GALZY</h3>
+<p>PASSWORD PM GALZY</p>
+
+<input id="pw" placeholder="MASUKAN PASSWORD!!"
+style="width:100%;padding:10px;border-radius:5px;border:none">
+
+<br><br>
+
+<button onclick="cek()"
+style="width:100%;padding:10px;border:none;border-radius:5px">
+BERIKUTNYA
+</button>
+
+<p id="info"></p>
+</div>
+
+<script>
+function cek(){
+if(pw.value=="GALIH123ror"){
+window.location.href="page2.html";
+}else{
+info.innerText="Password salah!";
+}
+}
+</script>
+
+</body>
+  </html>
